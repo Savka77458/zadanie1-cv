@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff5f5;
+    color: #1a1a1a;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border: 5px double #8b0000; 
+}
+
+h1, h2 {
+    color: #8b0000;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid #8b0000;
+    padding-bottom: 10px;
+}
+
+h2 {
+    border-left: 6px solid #dc143c;
+    padding-left: 15px;
+    background-color: #fbecec;
+}
