@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>CV - Vladyslav Savka</title>
-    <link rel="stylesheet" href="green.css">
+    <link id="theme-style" rel="stylesheet" href="red.css">
 </head>
 <body>
+    <div style="text-align: center; margin-bottom: 20px; padding-top: 20px;">
+        <button id="themeBtn" style="padding: 10px 15px; margin-right: 10px; cursor: pointer;">Zmień motyw</button>
+        <button id="sectionBtn" style="padding: 10px 15px; cursor: pointer;">Pokaż / Ukryj sekcję</button>
+    </div>
+    
     <header>
         <h1>Vladyslav Savka</h1>
         <p>Nr albumu: PL77458</p>
@@ -29,7 +34,7 @@
             <p>Jestem studentem pierwszego roku mieszkającym w Warszawie. Pasjonuję się programowaniem (szczególnie w C#, SQL i Luau) oraz architekturą sprzętu komputerowego. W wolnym czasie analizuję mechaniki w grach wideo, co inspiruje mnie do tworzenia własnych skryptów i projektów. Zawsze chętnie uczę się nowych technologii i poszerzam swoją wiedzę.</p>
         </section>
 
-        <section>
+        <section id="toggle-section">
             <h2>Umiejętności</h2>
             <ul>
                 <li>C# – podstawy</li>
@@ -75,5 +80,7 @@
     <footer>
         <p>&copy; 2026 Vladyslav Savka (PL77458). Strona stworzona na zaliczenie.</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
