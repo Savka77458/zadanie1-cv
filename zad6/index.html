@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Vladyslav Savka</title>
+    <link id="theme-style" rel="stylesheet" href="red.css">
+</head>
+<body>
+    <div style="text-align: center; margin-bottom: 20px; padding-top: 20px;">
+        <button id="themeBtn" style="padding: 10px 15px; margin-right: 10px; cursor: pointer;">Zmień motyw</button>
+        <button id="sectionBtn" style="padding: 10px 15px; cursor: pointer;">Pokaż / Ukryj sekcję</button>
+    </div>
+    
+    <header>
+        <h1>Vladyslav Savka</h1>
+        <p>Nr albumu: PL77458</p>
+        <img src="moje_zdjecie.jpg" alt="Zdjęcie profilowe - Vladyslav Savka" width="150">
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>E-mail: <a href="mailto:student@vistula.edu.pl">student@vistula.edu.pl</a></p>
+            <p>Telefon: <a href="tel:+48000000000">+48 000 000 000</a></p>
+            <p>Miasto: Warszawa</p>
+            <p>
+                <a href="https://github.com/Savka77458" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                <a href="https://vistula.edu.pl/" target="_blank" rel="noopener noreferrer">Vistula University</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>O mnie</h2>
+            <p>Jestem studentem pierwszego roku mieszkającym w Warszawie. Pasjonuję się programowaniem (szczególnie w C#, SQL i Luau) oraz architekturą sprzętu komputerowego. W wolnym czasie analizuję mechaniki w grach wideo, co inspiruje mnie do tworzenia własnych skryptów i projektów. Zawsze chętnie uczę się nowych technologii i poszerzam swoją wiedzę.</p>
+        </section>
+
+        <section id="toggle-section">
+            <h2>Umiejętności</h2>
+            <ul id="umiejetnosci-lista">
+            </ul>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+
+            <article>
+                <h3>Własne projekty</h3>
+                <p>Tworzenie prostych programów i skryptów w ramach nauki.</p>
+            </article>
+
+            <article>
+                <h3>Skrypty w grach</h3>
+                <p>Tworzenie prostych mechanik w grach (Luau).</p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p>
+                <strong>Akademia Finansów i Biznesu Vistula (Warszawa)</strong><br>
+                Informatyka – studia I stopnia (w trakcie)
+            </p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ul id="projekty-lista">
+            </ul>
+        </section>
+
+                <section id="formularz-kontakt">
+            <h2>Napisz do mnie</h2>
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię">
+                    <div class="error-message" id="imieError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="nazwisko">Nazwisko:</label>
+                    <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz swoje nazwisko">
+                    <div class="error-message" id="nazwiskoError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="np. jan.kowalski@domena.pl">
+                    <div class="error-message" id="emailError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="wiadomosc">Wiadomość:</label>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4" placeholder="Wpisz swoją wiadomość"></textarea>
+                    <div class="error-message" id="wiadomoscError"></div>
+                </div>
+
+                <button type="submit" id="submitBtn">Wyślij</button>
+                <div id="successMessage" style="display: none; color: green; font-weight: bold; margin-top: 15px;">
+                    Wiadomość została pomyślnie wysłana!
+                </div>
+            </form>
+        </section>
+    </main>     <footer>
+        <p>&copy; 2026 Vladyslav Savka (PL77458). Strona stworzona na zaliczenie.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
