@@ -1,0 +1,14 @@
+{
+  "umiejetnosci": [
+    "C# – podstawy",
+    "SQL – podstawy",
+    "HTML – podstawy",
+    "Znajomość budowy komputera",
+    "Rozwiązywanie problemów"
+  ],
+  "projekty": [
+    "Prosta aplikacja bankowa (C#)",
+    "Kalkulator (C#)",
+    "Skrypty w grach (Luau)"
+  ]
+}
